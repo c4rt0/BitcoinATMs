@@ -1,0 +1,57 @@
+{
+  "users": {
+    "_model": "User",
+    "homer": {
+      "firstName": "Homer",
+      "lastName": "Simpson",
+      "email": "homer@simpson.com",
+      "password": "secret"
+    },
+    "marge": {
+      "firstName": "Marge",
+      "lastName": "Simpson",
+      "email": "marge@simpson.com",
+      "password": "secret"
+    },
+    "bart": {
+      "firstName": "Bart",
+      "lastName": "Simpson",
+      "email": "bart@simpson.com",
+      "password": "secret"
+    }
+  },
+  "candidates": {
+    "_model": "Candidate",
+    "atm1": {
+      "atmName": "Enniscorthy BTC1",
+      "atmDescription": "Located beside AIB Atm on Mainstreet",
+      "atmCategory": "Bitcoin only"
+    },
+    "atm2": {
+      "atmName": "Waterford BTC1",
+      "atmDescription": "Located beside World of Spices, beside bus station on the quay.",
+      "atmCategory": "Multiple cryptocurrencies"
+    }
+  },
+  "atms": {
+    "_model": "Addition",
+    "one": {
+      "name": "Enniscorthy BTC 1",
+      "category": "paypal",
+      "description": "Yellow",
+      "candidate": "->candidates.atm1"
+    },
+    "two": {
+      "name": "Enniscorthy BTC 2",
+      "category": "direct",
+      "description": "Green",
+      "candidate": "->candidates.atm1"
+    },
+    "three": {
+      "name": "Enniscorthy BTC 3",
+      "category": "Bitcoin Only",
+      "description": "White",
+      "candidate": "->candidates.atm2"
+    }
+  }
+}
