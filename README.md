@@ -39,4 +39,4 @@ List of branches :
 
 9. Ent_Web_Dev_Assignment 1_V2.7.0
 
-    Contains Final version of the project, wieh 
+    Contains Final version of the project, with login / signup functionality, cloudinary image posting / display, cookies and     other parameters specified as GOOD level of assignment. 
