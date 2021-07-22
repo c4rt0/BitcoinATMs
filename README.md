@@ -1,6 +1,19 @@
-# Enterprise Web Development, Assignment. 1, BTC ATM DIRECTORY.
+# Enterprise Web Development, Assignment. 2, BTC ATM DIRECTORY.
 
 <img src="/public/images/btc_atm_1.png" width="300" >
+
+Project was developed using WebStorm 2020.3
+
+### Initialization
+
+Dependencies installation: 
+
+In terminal type in:
+```bash
+npm install
+```
+
+To start project in webstorm right click 'index.js' and hit "Run index.js".
 
 List of branches :
 
