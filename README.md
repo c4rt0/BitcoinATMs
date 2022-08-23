@@ -1,4 +1,4 @@
-# Enterprise Web Development, Assignment. 2, BTC ATM DIRECTORY.
+# Simple BTC ATM DIRECTORY app.
 
 <img src="/public/images/btc_atm_1.png" width="300" >
 
